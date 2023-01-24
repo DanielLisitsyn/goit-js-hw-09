@@ -31,6 +31,7 @@ const options = {
     function handleBtnStart() {
       timerId = setInterval(updateTimer, 1000)
       btnEl.disabled = true;
+      inputEl.disabled = true;
     };
 
     function updateTimer() {
